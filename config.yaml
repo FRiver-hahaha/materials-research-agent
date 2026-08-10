@@ -1,0 +1,34 @@
+# 材料科学文献调研智能体 — 配置文件
+# 初赛 Demo 默认使用 mock 提供器（零依赖、可端到端跑通）。
+# 真实参赛时：把 provider 改为 openai 并填入 key，业务层代码无需改动。
+
+llm:
+  provider: openai        # mock | openai
+  openai:
+    base_url: https://api.deepseek.com/v1
+    api_key: ""           # 留空，运行时用环境变量 LLM_API_KEY 注入
+    model: deepseek-chat
+
+embedding:
+  provider: mock          # mock | openai
+  openai:
+    base_url: https://api.openai.com/v1
+    api_key: ""
+    model: text-embedding-3-small
+
+sciverse:
+  # 鉴权优先级：环境变量 SCIVERSE_API_TOKEN > 本处 api_key > 无 key(退回本地RAG)
+  # REST 端点（已核对官方 SDK 0.13.1）：https://api.sciverse.space  {POST /meta-search, POST /agentic-search, GET /content}
+  api_key: ""             # 也可在此硬编码 token（ https://sciverse.opendatalab.com/tokens ）
+  base_url: https://api.sciverse.space
+  # 无 token 时系统自动退回本地 RAG，Demo 仍可端到端跑通
+
+mineru:
+  token: ""               # MinerU 解析 token（https://mineru.net）
+
+data:
+  corpus: data/sample_literature/perovskite_papers.json
+  output: data/output
+
+route_a:
+  algorithm: bayes        # bayes | genetic
