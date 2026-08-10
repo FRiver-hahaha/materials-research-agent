@@ -1,0 +1,13 @@
+# 虚拟环境
+.venv/
+venv/
+
+# 临时运行日志
+run*.log
+
+# 依赖缓存
+.wheel_cache/
+
+# Python 缓存
+__pycache__/
+*.pyc
