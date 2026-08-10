@@ -1,0 +1,7 @@
+# 零强制依赖：本系统核心使用 Python 标准库，开箱即跑（python -m src.main）。
+# 仅在接入真实模型/检索时才需要以下可选依赖（取消注释并 pip install）：
+# openai>=1.0        # 若使用 OpenAI / 兼容端点作为 LLM / Embedding
+# sciverse>=0.1      # Sciverse 官方 SDK（语义检索/元数据检索），真实文献来源
+# requests>=2.0      # Sciverse / MinerU / Materials Project 真实 HTTP 调用（当前用 urllib，无需安装）
+# numpy>=1.24        # 若未来将搜索优化算法迁移到 numpy 实现（当前为纯 Python）
+# langgraph>=0.2     # 可选：将自研状态图替换为 LangGraph（接口已对齐，便于迁移）
