@@ -1,0 +1,95 @@
+{
+  "corpus": "Sci-Base 预处理后的钙钛矿太阳能材料专属语料（演示子集）",
+  "papers": [
+    {
+      "paper_id": "P001",
+      "title": "High-efficiency MAPbI3 perovskite solar cells",
+      "authors": ["Kim J.", "Lee S."],
+      "year": 2021,
+      "abstract": "We report MAPbI3 based solar cells with optimized annealing at 100°C. The optical bandgap of MAPbI3 is measured as 1.55 eV.",
+      "parsed": {
+        "sections": {
+          "abstract": "We report MAPbI3 based solar cells with optimized annealing at 100°C. The optical bandgap of MAPbI3 is measured as 1.55 eV.",
+          "methods": "First-principles DFT calculations were performed using PBE functional to relax the MAPbI3 lattice.",
+          "results": "MAPbI3 shows a bandgap of 1.55 eV and decent phase stability under standard conditions."
+        }
+      },
+      "url": "https://doi.org/10.1000/perov.001"
+    },
+    {
+      "paper_id": "P002",
+      "title": "Thermal stability of FAPbI3 perovskites",
+      "authors": ["Wang H.", "Chen L."],
+      "year": 2022,
+      "abstract": "FAPbI3 exhibits a bandgap of 1.48 eV. We study its stability using molecular dynamics at 300 K.",
+      "parsed": {
+        "sections": {
+          "abstract": "FAPbI3 exhibits a bandgap of 1.48 eV. We study its stability using molecular dynamics at 300 K.",
+          "methods": "Molecular dynamics simulations reveal that FAPbI3 remains stable over 10 ns.",
+          "results": "The Eg of FAPbI3 is 1.48 eV, slightly lower than MAPbI3, with improved thermal tolerance."
+        }
+      },
+      "url": "https://doi.org/10.1000/perov.002"
+    },
+    {
+      "paper_id": "P003",
+      "title": "Mixed-cation MA0.8Cs0.2PbI3 for reduced hysteresis",
+      "authors": ["Zhang Y."],
+      "year": 2023,
+      "abstract": "MA0.8Cs0.2PbI3 demonstrates a bandgap of 1.60 eV. DFT with HSE06 was used to validate the trend.",
+      "parsed": {
+        "sections": {
+          "abstract": "MA0.8Cs0.2PbI3 demonstrates a bandgap of 1.60 eV. DFT with HSE06 was used to validate the trend.",
+          "methods": "HSE06 hybrid functional calculations confirm the Eg of MA0.8Cs0.2PbI3 at 1.60 eV.",
+          "results": "Incorporating Cs into MAPbI3 shifts the bandgap to 1.60 eV and suppresses ion migration."
+        }
+      },
+      "url": "https://doi.org/10.1000/perov.003"
+    },
+    {
+      "paper_id": "P004",
+      "title": "Defect engineering in MAPbI3 for tandem applications",
+      "authors": ["Patel R.", "Nguyen T."],
+      "year": 2023,
+      "abstract": "Through defect passivation, MAPbI3 shows an optical bandgap of 1.70 eV in our measurements. DFT supports the band alignment.",
+      "parsed": {
+        "sections": {
+          "abstract": "Through defect passivation, MAPbI3 shows an optical bandgap of 1.70 eV in our measurements. DFT supports the band alignment.",
+          "methods": "First-principles DFT was applied to MAPbI3 with and without defects.",
+          "results": "The measured Eg of MAPbI3 reaches 1.70 eV after surface treatment, higher than the pristine value."
+        }
+      },
+      "url": "https://doi.org/10.1000/perov.004"
+    },
+    {
+      "paper_id": "P005",
+      "title": "Synthesis of CsPbBr3 nanocrystals",
+      "authors": ["Garcia M."],
+      "year": 2020,
+      "abstract": "CsPbBr3 perovskite nanocrystals were synthesized via hot-injection at 180°C. The emission is in the green region.",
+      "parsed": {
+        "sections": {
+          "abstract": "CsPbBr3 perovskite nanocrystals were synthesized via hot-injection at 180°C. The emission is in the green region.",
+          "methods": "Hot-injection method produced uniform CsPbBr3 perovskite quantum dots.",
+          "results": "CsPbBr3 perovskite exhibits bright green photoluminescence but the precise bandgap was not quantified in this work."
+        }
+      },
+      "url": "https://doi.org/10.1000/perov.005"
+    },
+    {
+      "paper_id": "P006",
+      "title": "FA0.83Cs0.17PbI3 for stable single-junction devices",
+      "authors": ["Liu X.", "Zhao Q."],
+      "year": 2024,
+      "abstract": "FA0.83Cs0.17PbI3 yields a bandgap of 1.50 eV, close to the ideal 1.3-1.4 eV window. DFT confirms stability.",
+      "parsed": {
+        "sections": {
+          "abstract": "FA0.83Cs0.17PbI3 yields a bandgap of 1.50 eV, close to the ideal 1.3-1.4 eV window. DFT confirms stability.",
+          "methods": "DFT calculations were used to assess the phase stability of FA0.83Cs0.17PbI3.",
+          "results": "FA0.83Cs0.17PbI3 achieves 1.50 eV bandgap with enhanced humidity stability."
+        }
+      },
+      "url": "https://doi.org/10.1000/perov.006"
+    }
+  ]
+}
